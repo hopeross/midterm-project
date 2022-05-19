@@ -1,5 +1,5 @@
-<h3>Job Details Page please work</h3>
-
-<p>
-    Employer Name: {{jobDetails.employer}}
-</p>
+<div>
+<h3>{{jobDetails.jobTitle}}, {{jobDetails.employer}} ({{jobDetails.jobDuration}})</h3>
+<p>{{jobDetails.jobDescription}}</p>
+<a [routerLink]="['/jobs']">back</a>
+</div>
